@@ -15,7 +15,7 @@ a {
     display: inline-block;
     margin: 4px 2px;
     border-radius: 16px;
-    font-family: 'Courier New', Courier, monospace;
+
 }
 
 li {
@@ -42,8 +42,13 @@ img {
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+
     text-align: center;
+}
+
+h4 {
+
+    text-align: left;
 }
 
 body {
