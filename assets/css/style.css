@@ -36,7 +36,7 @@ a {
 
 .menu-list {
     display: inline;
-    float: right;
+    text-align: center;
     list-style-type: none;
 }
 
