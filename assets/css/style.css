@@ -2,10 +2,22 @@ html * {
     font-family: 'Courier New', Courier, monospace;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.container-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    padding-left: 5%;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+#benefits-list {
+    line-height: 2.5;
+    padding-left: 1%;
 }
 
 a {
@@ -22,8 +34,10 @@ a {
 
 }
 
-li {
+.menu-list {
     display: inline;
+    float: right;
+    list-style-type: none;
 }
 
 nav {
@@ -32,7 +46,7 @@ nav {
     margin: 0px 20px 20px 20px;
     padding-bottom: 20px;
     white-space: nowrap;
-    overflow: auto
+    overflow: auto;
 }
 
 img {
